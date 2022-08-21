@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>contador de palabras</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
   <h1>contador de caracters</h1>
-  <textarea name="tex" id="texto" cols="40" rows="15"
-    placeholder="ingrese el texto que aqui le contamos los caracteres"></textarea>
-  <p>numrero de caracteres: <span id="numerocarac"></span></p>
-  <!--<p>espacios: <span id="espacios"></span></p>-->
+  <textarea name="tex" id="texto" cols="40" rows="15" placeholder="ingrese el texto"></textarea>
+  <p>total de caracteres: <span id="numerocarac"></span></p>
+  <p>palabras: <span id="nu_palabras"></span></p>
+  <P>palabras repetidas: <ul id="palabras_iguales"></ul></P>
+  <input type="button" value="contar" id="contar_todo">
+
 </body>
 <script src="contador.js"></script>
 
